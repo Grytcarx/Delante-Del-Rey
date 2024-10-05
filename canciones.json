@@ -2,11 +2,11 @@
     {
         "nombre":"Alabaré",
         "nota":"C",
-        "letra":"Alabaré, alabaré,Alabaré a mi Señor"
+        "letra":"Alabaré,\nAlabaré,\nAlabaré a mi Señor"
     },
     {
         "nombre":"Digno de gloria",
         "nota":"C",
-        "letra":"Digno de gloria, y de alabanza"
+        "letra":"Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él"
     }
 ]
