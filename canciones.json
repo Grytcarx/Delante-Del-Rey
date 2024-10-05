@@ -1,12 +1,10 @@
 [
     {
-        "id":1,
         "nombre":"Alabaré",
         "nota":"C",
         "letra":"Alabaré,\nAlabaré,\nAlabaré a mi Señor"
     },
     {
-        "id":2,
         "nombre":"Digno de gloria",
         "nota":"C",
         "letra":"Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él"
