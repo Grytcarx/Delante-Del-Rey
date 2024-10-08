@@ -10,5 +10,17 @@
         "nombre":"Digno de gloria",
         "nota":"C",
         "letra":"Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él"
+    },
+    {
+        "id":3,
+        "nombre":"Ven espíritu ven",
+        "nota":"C",
+        "letra":"Ven\n, Espíritu ven,\nY lléname Señor,\nCon tu preciosa unción\n\nPurifíca,\nY lávame,\nRenuévame"
+    },
+    {
+        "id":4,
+        "nombre":"Algo está descendiendo",
+        "nota":"C",
+        "letra":"Algo está descendiendo, algo está descendiendo,\nAlgo está descendiendo desde arriba de los cielos"
     }
 ]
