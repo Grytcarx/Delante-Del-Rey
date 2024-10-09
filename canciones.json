@@ -3,24 +3,28 @@
         "id":1,
         "nombre":"Alabaré",
         "nota":0,
+        "tipo":1,
         "letra":"Alabaré,\nAlabaré,\nAlabaré a mi Señor"
     },
     {
         "id":2,
         "nombre":"Digno de gloria",
         "nota":1,
+        "tipo":1,
         "letra":"Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él"
     },
     {
         "id":3,
         "nombre":"Ven espíritu ven",
         "nota":4,
+        "tipo":0,
         "letra":"Ven\n, Espíritu ven,\nY lléname Señor,\nCon tu preciosa unción\n\nPurifíca,\nY lávame,\nRenuévame"
     },
     {
         "id":4,
         "nombre":"Algo está descendiendo",
         "nota":6,
+        "tipo":1,
         "letra":"Algo está descendiendo, algo está descendiendo,\nAlgo está descendiendo desde arriba de los cielos"
     }
 ]
