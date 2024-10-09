@@ -2,7 +2,7 @@
     {
         "id":1,
         "nombre":"Alabaré",
-        "nota":1,
+        "nota":0,
         "letra":"Alabaré,\nAlabaré,\nAlabaré a mi Señor"
     },
     {
@@ -14,13 +14,13 @@
     {
         "id":3,
         "nombre":"Ven espíritu ven",
-        "nota":1,
+        "nota":4,
         "letra":"Ven\n, Espíritu ven,\nY lléname Señor,\nCon tu preciosa unción\n\nPurifíca,\nY lávame,\nRenuévame"
     },
     {
         "id":4,
         "nombre":"Algo está descendiendo",
-        "nota":1,
+        "nota":6,
         "letra":"Algo está descendiendo, algo está descendiendo,\nAlgo está descendiendo desde arriba de los cielos"
     }
 ]
