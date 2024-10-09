@@ -5,7 +5,7 @@
         "tono":0,
         "modo":0,
         "velocidad":1,
-        "tipo":0,
+        "grupo":0,
         "letra":[
             {
                 "seccion":"Coro",
@@ -19,7 +19,7 @@
         "tono":1,
         "modo":0,
         "velocidad":1,
-        "tipo":0,
+        "grupo":0,
         "letra":[
             {
                 "seccion":"Coro",
@@ -33,7 +33,7 @@
         "tono":4,
         "modo":0,
         "velocidad":0,
-        "tipo":0,
+        "grupo":0,
         "letra":[
             {
                 "seccion":"Coro",
@@ -47,7 +47,7 @@
         "tono":6,
         "modo":0,
         "velocidad":1,
-        "tipo":0,
+        "grupo":0,
         "letra":[
             {
                 "seccion":"Coro",
@@ -61,7 +61,7 @@
         "tono":8,
         "modo":0,
         "velocidad":1,
-        "tipo":1,
+        "grupo":1,
         "letra":[
             {
                 "seccion":"Estrofa 1",
@@ -88,7 +88,7 @@
         "tono":2,
         "modo":1,
         "velocidad":0,
-        "tipo":2,
+        "grupo":2,
         "letra":[
             {
                 "seccion":"Estrofa 1",
