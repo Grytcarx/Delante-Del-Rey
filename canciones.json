@@ -5,7 +5,12 @@
         "nota":0,
         "tipo":1,
         "grupo":0,
-        "letra":"Alabaré,\nAlabaré,\nAlabaré a mi Señor"
+        "letra":[
+            {
+                "seccion":"Coro",
+                "letra":"Alabaré,\nAlabaré,\nAlabaré a mi Señor"
+            }
+        ]
     },
     {
         "id":2,
@@ -13,7 +18,12 @@
         "nota":1,
         "tipo":1,
         "grupo":0,
-        "letra":"Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él"
+        "letra":[
+            {
+                "seccion":"Coro",
+                "letra":"Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él"
+            }
+        ]
     },
     {
         "id":3,
@@ -21,7 +31,12 @@
         "nota":4,
         "tipo":0,
         "grupo":0,
-        "letra":"Ven\n, Espíritu ven,\nY lléname Señor,\nCon tu preciosa unción\n\nPurifíca,\nY lávame,\nRenuévame"
+        "letra":[
+            {
+                "seccion":"Coro",
+                "letra":"Ven\n, Espíritu ven,\nY lléname Señor,\nCon tu preciosa unción\n\nPurifíca,\nY lávame,\nRenuévame"
+            }
+        ]
     },
     {
         "id":4,
@@ -29,6 +44,63 @@
         "nota":6,
         "tipo":1,
         "grupo":0,
-        "letra":"Algo está descendiendo, algo está descendiendo,\nAlgo está descendiendo desde arriba de los cielos"
+        "letra":[
+            {
+                "seccion":"Coro",
+                "letra":"Algo está descendiendo, algo está descendiendo,\nAlgo está descendiendo desde arriba de los cielos"
+            }
+        ]
+    },
+    {
+        "id":5,
+        "nombre":"Cristo la Roca",
+        "nota":8,
+        "tipo":1,
+        "grupo":1,
+        "letra":[
+            {
+                "seccion":"Estrofa 1",
+                "letra":"En las olas inmensas de embravecido mar,\nQue asaltan de mi alma La pobre embarcación,\nDe rodillas a Cristo clamé, y el huracán,\nDeshecho fue al instante a la voz de Dios."
+            },
+            {
+                "seccion":"Estrofa 2",
+                "letra":"Me guarda de peligros, de pruebas, de dolor,\nÉl manda que los vientos no agiten tempestad,\nLos mares se detienen, la ola reposó, y el huracán,\nY en Cristo fijo el ancla, Confiando más."
+            },
+            {
+                "seccion":"Estrofa 2",
+                "letra":"Mi dulce salvador, sí, mi hermoso amigo y Dios,\nQue libra de tristezas y aleja amarga hiel,\nPor fe yo iré al cielo, mansión del ser de amor,\nLa fuente inagotable de dicha y bien."
+            }
+            ,
+            {
+                "seccion":"Coro",
+                "letra":"Es Cristo la roca, el ancla de mi fe,\nLos males, lamentos, y ayes de temor,\nTerminaran por siempre, con mi supremo rey,\nEs Jesucristo mi refugio."
+            }
+        ]
+    },
+    {
+        "id":6,
+        "nombre":"Yo navegaré",
+        "nota":13,
+        "tipo":0,
+        "grupo":2,
+        "letra":[
+            {
+                "seccion":"Estrofa 1",
+                "letra":"En las olas inmensas de embravecido mar,\nQue asaltan de mi alma La pobre embarcación,\nDe rodillas a Cristo clamé, y el huracán,\nDeshecho fue al instante a la voz de Dios."
+            },
+            {
+                "seccion":"Estrofa 2",
+                "letra":"Me guarda de peligros, de pruebas, de dolor,\nÉl manda que los vientos no agiten tempestad,\nLos mares se detienen, la ola reposó, y el huracán,\nY en Cristo fijo el ancla, Confiando más."
+            },
+            {
+                "seccion":"Estrofa 2",
+                "letra":"Mi dulce salvador, sí, mi hermoso amigo y Dios,\nQue libra de tristezas y aleja amarga hiel,\nPor fe yo iré al cielo, mansión del ser de amor,\nLa fuente inagotable de dicha y bien."
+            }
+            ,
+            {
+                "seccion":"Coro",
+                "letra":"Es Cristo la roca, el ancla de mi fe,\nLos males, lamentos, y ayes de temor,\nTerminaran por siempre, con mi supremo rey,\nEs Jesucristo mi refugio."
+            }
+        ]
     }
 ]
