@@ -2,25 +2,25 @@
     {
         "id":1,
         "nombre":"Alabaré",
-        "nota":"C",
+        "nota":1,
         "letra":"Alabaré,\nAlabaré,\nAlabaré a mi Señor"
     },
     {
         "id":2,
         "nombre":"Digno de gloria",
-        "nota":"C",
+        "nota":1,
         "letra":"Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él"
     },
     {
         "id":3,
         "nombre":"Ven espíritu ven",
-        "nota":"C",
+        "nota":1,
         "letra":"Ven\n, Espíritu ven,\nY lléname Señor,\nCon tu preciosa unción\n\nPurifíca,\nY lávame,\nRenuévame"
     },
     {
         "id":4,
         "nombre":"Algo está descendiendo",
-        "nota":"C",
+        "nota":1,
         "letra":"Algo está descendiendo, algo está descendiendo,\nAlgo está descendiendo desde arriba de los cielos"
     }
 ]
