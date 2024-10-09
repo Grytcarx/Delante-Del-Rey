@@ -4,6 +4,7 @@
         "nombre":"Alabaré",
         "nota":0,
         "tipo":1,
+        "grupo":0,
         "letra":"Alabaré,\nAlabaré,\nAlabaré a mi Señor"
     },
     {
@@ -11,6 +12,7 @@
         "nombre":"Digno de gloria",
         "nota":1,
         "tipo":1,
+        "grupo":0,
         "letra":"Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él"
     },
     {
@@ -18,6 +20,7 @@
         "nombre":"Ven espíritu ven",
         "nota":4,
         "tipo":0,
+        "grupo":0,
         "letra":"Ven\n, Espíritu ven,\nY lléname Señor,\nCon tu preciosa unción\n\nPurifíca,\nY lávame,\nRenuévame"
     },
     {
@@ -25,6 +28,7 @@
         "nombre":"Algo está descendiendo",
         "nota":6,
         "tipo":1,
+        "grupo":0,
         "letra":"Algo está descendiendo, algo está descendiendo,\nAlgo está descendiendo desde arriba de los cielos"
     }
 ]
