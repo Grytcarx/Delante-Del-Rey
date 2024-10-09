@@ -2,7 +2,8 @@
     {
         "id":1,
         "nombre":"Alabaré",
-        "nota":0,
+        "tono":0,
+        "modo":0,
         "tipo":1,
         "grupo":0,
         "letra":[
@@ -15,7 +16,8 @@
     {
         "id":2,
         "nombre":"Digno de gloria",
-        "nota":1,
+        "tono":1,
+        "modo":0,
         "tipo":1,
         "grupo":0,
         "letra":[
@@ -28,7 +30,8 @@
     {
         "id":3,
         "nombre":"Ven espíritu ven",
-        "nota":4,
+        "tono":4,
+        "modo":0,
         "tipo":0,
         "grupo":0,
         "letra":[
@@ -41,7 +44,8 @@
     {
         "id":4,
         "nombre":"Algo está descendiendo",
-        "nota":6,
+        "tono":6,
+        "modo":0,
         "tipo":1,
         "grupo":0,
         "letra":[
@@ -54,7 +58,8 @@
     {
         "id":5,
         "nombre":"Cristo la Roca",
-        "nota":8,
+        "tono":8,
+        "modo":0,
         "tipo":1,
         "grupo":1,
         "letra":[
@@ -80,7 +85,8 @@
     {
         "id":6,
         "nombre":"Yo navegaré",
-        "nota":13,
+        "tono":2,
+        "modo":1,
         "tipo":0,
         "grupo":2,
         "letra":[
