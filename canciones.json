@@ -2,14 +2,18 @@
     {
         "id":1,
         "nombre":"Alabaré",
-        "tono":0,
+        "tono":-2,
         "modo":0,
         "velocidad":1,
         "grupo":0,
         "letra":[
             {
-                "seccion":"Coro",
-                "letra":"Alabaré,\nAlabaré,\nAlabaré a mi Señor"
+                "seccion":"Verso 1",
+                "letra":"//Alabaré,\nAlabaré,\nAlabaré a mi Señor.//"
+            },
+            {
+                "seccion":"Verso 2",
+                "letra":"Juan vio el número, de los redimidos,\nY todos alababan al Señor,\nUnos oraban,\n otros cantaban\nPero todos alababan al Señor."
             }
         ]
     },
@@ -23,28 +27,32 @@
         "letra":[
             {
                 "seccion":"Coro",
-                "letra":"Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él"
+                "letra":"//Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él.//\n\nMe ha redimido con su sangre sí,\nSu espíritu vive en mí\n\n//Digno de gloria y,\nDe alabanza y,\nDigno de honor es Él.//"
             }
         ]
     },
     {
         "id":3,
         "nombre":"Ven espíritu ven",
-        "tono":4,
+        "tono":-2,
         "modo":0,
         "velocidad":0,
         "grupo":0,
         "letra":[
             {
-                "seccion":"Coro",
-                "letra":"Ven\n, Espíritu ven,\nY lléname Señor,\nCon tu preciosa unción\n\nPurifíca,\nY lávame,\nRenuévame"
+                "seccion":"Verso 1",
+                "letra":"//Ven,\nEspíritu ven,\nY lléname Señor,\nCon tu preciosa unción.//"
+            },
+            {
+                "seccion":"Verso 2",
+                "letra":"//Purifíca,\nY lávame,\nRenuévame\nRestáurame Señor,\nCon tu poder.//"
             }
         ]
     },
     {
         "id":4,
         "nombre":"Algo está descendiendo",
-        "tono":6,
+        "tono":-2,
         "modo":0,
         "velocidad":1,
         "grupo":0,
@@ -58,7 +66,7 @@
     {
         "id":5,
         "nombre":"Cristo la Roca",
-        "tono":8,
+        "tono":-2,
         "modo":0,
         "velocidad":1,
         "grupo":1,
@@ -85,27 +93,86 @@
     {
         "id":6,
         "nombre":"Yo navegaré",
-        "tono":2,
+        "tono":-2,
         "modo":1,
         "velocidad":0,
         "grupo":2,
         "letra":[
             {
                 "seccion":"Verso 1",
-                "letra":"En las olas inmensas de embravecido mar,\nQue asaltan de mi alma La pobre embarcación,\nDe rodillas a Cristo clamé, y el huracán,\nDeshecho fue al instante a la voz de Dios."
-            },
-            {
-                "seccion":"Verso 2",
-                "letra":"Me guarda de peligros, de pruebas, de dolor,\nÉl manda que los vientos no agiten tempestad,\nLos mares se detienen, la ola reposó, y el huracán,\nY en Cristo fijo el ancla, Confiando más."
-            },
-            {
-                "seccion":"Verso 2",
-                "letra":"Mi dulce salvador, sí, mi hermoso amigo y Dios,\nQue libra de tristezas y aleja amarga hiel,\nPor fe yo iré al cielo, mansión del ser de amor,\nLa fuente inagotable de dicha y bien."
+                "letra":"Yo navegaré"
             }
-            ,
+        ]
+    },
+    {
+        "id":7,
+        "nombre":"Digno de gloria",
+        "tono":-2,
+        "modo":0,
+        "velocidad":0,
+        "grupo":0,
+        "letra":[
             {
                 "seccion":"Coro",
-                "letra":"Es Cristo la roca, el ancla de mi fe,\nLos males, lamentos, y ayes de temor,\nTerminaran por siempre, con mi supremo rey,\nEs Jesucristo mi refugio."
+                "letra":"//Digno de gloria,\nY de alabanza,\nLevantemos nuestras manos,\nY adoremos al Señor.//\n\nPorque grande eres,\nMaravillas haces tú\nNo hay otro como tú,\nNo lo hay\nNo hay nadie como tu."
+            }
+        ]
+    },
+    {
+        "id":8,
+        "nombre":"No hay otro Dios",
+        "tono":-2,
+        "modo":0,
+        "velocidad":0,
+        "grupo":0,
+        "letra":[
+            {
+                "seccion":"Verso 1",
+                "letra":"///No hay otro Dios///\nComo tú Jesus\nDios en los cielos,\nDios en la tierra\nNo hay otro Dios como tú\n\nSólo Jesús,\nSólo, sólo Jesús, Sólo con El me quedo\nDios en los cielos,\nDios en la tierra,\nNo hay otro Dios como tú."
+            },
+            {
+                "seccion":"Verso 2",
+                "letra":"///No hay otro Dios///\nComo tú Jesus\nA tu presencia\nTtiembla la tierra,\nNo hay otro dios como tú."
+            },
+            {
+                "seccion":"Coro",
+                "letra":"Que calma,\nEl recio viento,\nNo hay otro Dios,\nComo tú\n\nQue cuenta,\n mis cabellos,\nNo hay otro Dios\nComo tú.\n\nQue conoce,\nMis pensamientos,\nNo hay otro Dios,\nComo tú.\n\nQue sabe,\nLo que siento,\nNo hay otro Dios,\nComo mi Dios,\n\n//Como mi Dios,\nNo hay otro Dios.//\n"
+            }
+        ]
+    },
+    {
+        "id":9,
+        "nombre":"Merecedor de alabanzas",
+        "tono":-2,
+        "modo":1,
+        "velocidad":0,
+        "grupo":0,
+        "letra":[
+            {
+                "seccion":"Verso 1",
+                "letra":"Merecedor,\nDe alabanzas,\nAquel que vino a salvarme.\n\nMerecedor,De alabanzas,\nQue siendo yo pecador.\n\nNo escatimó,\nSu linaje,\nal morir en la cruz.\n\nMerecedor,\nDe alabanzas,\nPor los siglos,\nSea Jesús."
+            },
+            {
+                "seccion":"Coro",
+                "letra":"El día en que no le alabo,\nEl alma se me entristece,\nPues donde no hay alabanza,\nÉl no puede estar presente.\n\nUn sacrificio tan grande,\nNo pueden pasar por alto,\nPor siempre te digo santo,\nAunque crean que estoy loco."
+            }
+        ]
+    },
+    {
+        "id":10,
+        "nombre":"Cómo olvidate",
+        "tono":-2,
+        "modo":1,
+        "velocidad":0,
+        "grupo":0,
+        "letra":[
+            {
+                "seccion":"Verso 1",
+                "letra":"¿Cómo,\nOlvidarte?,\nSi yo,\nSoy testigo\nDe tus obras,\nY de tu ayuda,\nTus milagros,\nTu poder.\n\n¿Cómo,\n olvidarte?,\n Si tú has sido,\nSiempre fiel,\n¿Cómo,\n olvidarte?,\n Si,\nTú eres mi Dios"
+            },
+            {
+                "seccion":"Coro",
+                "letra":"Conoces mi vida,\nConoces mis pasos,\nTodos mis días,\nLos tienes contados,\n\nMis sueños, deseos,\nEstán, en tus manos,\nMis horas amargas,\nLas consuelas tú.\n\n.Tú eres Señor,\nEl sustento de gracia,\nLa fuerza que llevo,\nAquí adentro en el alma.\n\nEl sol de justicia,\nQue alumbra mi ser,\n¿Cómo olvidarte?,\nSi eres mi Dios.\n\nEl Dios de los cielos,\nEl Dios de la tierra,\nEl Dios de los mares,\nY de las estrellas,\n\nEl Dios de Israel,\nEl Dios del ayer,\nDe hoy, de mañana,\n y los siglos,\nAmén."
             }
         ]
     }
