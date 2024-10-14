@@ -1,20 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* PROPIO */
+*, *::before, *::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+img,
+input,
+textarea,
+select,
+button {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a,span {
+	display: block;
+}
+
 body {
     display: flex;
     flex-direction: column;
     height: 100dvh;
     justify-content: center;
     align-items: center;
-}
-
-h1 {
-    text-align: center;
-    color: blueviolet;
+    background-color: rgb(227, 252, 255);
 }
 
 a {
     text-decoration: none;
 }
 
-#enlaceDecargarApp {
-    col
+
+
+header,main,footer {
+    padding: 1em;
+}
+
+header {
+    .contenedor-titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .2em;
+
+        img {
+            width: 4rem;
+            width: 4rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            color: blueviolet;
+        }
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 2em;
+
+    .p-informacion {
+        text-align: center;
+        font-size: 1.3rem;
+        text-wrap: balance;
+        max-width: 500px;
+        color: #c200da;
+    }
+     
+    #enlaceDecargarApp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blueviolet;
+        padding: 1em;
+        border-radius: 2em;
+        gap: .5em;
+        color: white;
+        text-shadow: 0px 0px 10px black;
+        text-align: center;
+    
+        img {
+            height: 30px;
+            width: 30px;
+        }
+    }
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #575779;
+    width: 100%;
+    gap: 1em;
+
+    img {
+        width: 5em;
+        height: 5em;
+    }
+
+    .informacion {
+        display: flex;
+        flex-direction: column;
+        gap: .3em;
+
+        p {
+            color: white;
+        }
+    }
+    
 }
