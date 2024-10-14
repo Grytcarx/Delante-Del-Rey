@@ -20,7 +20,7 @@
     {
         "id":2,
         "nombre":"Digno de gloria",
-        "tono":1,
+        "tono":-1,
         "modo":0,
         "velocidad":1,
         "grupo":-1,
