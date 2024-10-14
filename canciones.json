@@ -2,10 +2,10 @@
     {
         "id":1,
         "nombre":"Alabaré",
-        "tono":-2,
+        "tono":-1,
         "modo":0,
         "velocidad":1,
-        "grupo":0,
+        "grupo":-1,
         "letra":[
             {
                 "seccion":"Verso 1",
@@ -13,7 +13,7 @@
             },
             {
                 "seccion":"Verso 2",
-                "letra":"Juan vio el número, de los redimidos,\nY todos alababan al Señor,\nUnos oraban,\n otros cantaban\nPero todos alababan al Señor."
+                "letra":"Juan vio el número,\nDe los redimidos,\nY todos alababan al Señor.\n\nUnos oraban,\nOtros cantaban\nPero todos alababan al Señor."
             }
         ]
     },
@@ -23,7 +23,7 @@
         "tono":1,
         "modo":0,
         "velocidad":1,
-        "grupo":0,
+        "grupo":-1,
         "letra":[
             {
                 "seccion":"Coro",
@@ -34,10 +34,10 @@
     {
         "id":3,
         "nombre":"Ven espíritu ven",
-        "tono":-2,
+        "tono":-1,
         "modo":0,
         "velocidad":0,
-        "grupo":0,
+        "grupo":-1,
         "letra":[
             {
                 "seccion":"Verso 1",
@@ -45,126 +45,130 @@
             },
             {
                 "seccion":"Verso 2",
-                "letra":"//Purifíca,\nY lávame,\nRenuévame\nRestáurame Señor,\nCon tu poder.//"
+                "letra":"//Purifíca,\nY lávame,\nRenuévame,\nRestáurame,\nSeñor,\nCon tu poder.//"
             }
         ]
     },
     {
         "id":4,
         "nombre":"Algo está descendiendo",
-        "tono":-2,
+        "tono":-1,
         "modo":0,
         "velocidad":1,
-        "grupo":0,
+        "grupo":-1,
         "letra":[
             {
                 "seccion":"Coro",
-                "letra":"Algo está descendiendo, algo está descendiendo,\nAlgo está descendiendo desde arriba de los cielos"
+                "letra":"Algo está descendiendo,\nAlgo está descendiendo,\nAlgo está descendiendo desde arriba de los cielos.\n\n//Y eso,\nEs,\nEl espíritu Santo.//\n\n//Oh gloria,\nAluya,\nAleluya gloria a Dios.//"
             }
         ]
     },
     {
         "id":5,
         "nombre":"Cristo la Roca",
-        "tono":-2,
+        "tono":-1,
         "modo":0,
         "velocidad":1,
-        "grupo":1,
+        "grupo":-1,
         "letra":[
             {
                 "seccion":"Verso 1",
-                "letra":"En las olas inmensas de embravecido mar,\nQue asaltan de mi alma la pobre embarcación,\nDe rodillas a Cristo clamé, y el huracán,\nDeshecho fue al instante a la voz de Dios."
+                "letra":"En las olas inmensas\nDe embravecido mar,\nQue asaltan de mi alma\nLa pobre embarcación,\nDe rodillas a Cristo\nClamé, y el huracán,\nDeshecho fue al instante\nA la voz de Dios."
             },
             {
                 "seccion":"Verso 2",
-                "letra":"Me guarda de peligros, de pruebas, de dolor,\nÉl manda que los vientos no agiten tempestad,\nLos mares se detienen, la ola reposó, y el huracán,\nY en Cristo fijo el ancla, confiando más."
+                "letra":"Me guarda de peligros\nDe pruebas, de dolor,\nÉl manda que los vientos\nNo agiten tempestad,\nLos mares se detienen\nLa ola reposó,\nY en Cristo fijo el ancla,\nConfiando más."
             },
             {
                 "seccion":"Verso 2",
-                "letra":"Mi dulce salvador, sí, mi hermoso amigo y Dios,\nQue libra de tristezas y aleja amarga hiel,\nPor fe yo iré al cielo, mansión del ser de amor,\nLa fuente inagotable de dicha y bien."
+                "letra":"Mi dulce salvador, sí\nMi hermoso amigo y Dios,\nQue libra de tristezas\nY aleja amarga hiel,\nPor fe yo iré al cielo,\n mansión del ser de amor,\nLa fuente inagotable\nDe dicha y bien."
             }
             ,
             {
                 "seccion":"Coro",
-                "letra":"Es Cristo la roca, el ancla de mi fe,\nLos males, lamentos, y ayes de temor,\nTerminaran por siempre, con mi supremo rey,\nEs Jesucristo mi refugio."
+                "letra":"Es Cristo,\nLa roca,\nEl ancla de mi fe,\nLos males,\nLamentos,\nY ayes de temor,\nTerminaran por siempre,\nCon mi supremo rey,\nEs Jesucristo mi refugio."
             }
         ]
     },
     {
         "id":6,
         "nombre":"Yo navegaré",
-        "tono":-2,
+        "tono":-1,
         "modo":1,
         "velocidad":0,
-        "grupo":2,
+        "grupo":-1,
         "letra":[
             {
                 "seccion":"Verso 1",
-                "letra":"Yo navegaré"
+                "letra":"Yo navegaré,\nEn el río de tu espíritu,\nY allí adoraré,\nAl Dios que me amó.\n\nYo adoraré,\nAl Dios de mi vida,\nQue me comprende,\nSin ninguna explicación."
+            },
+            {
+                "seccion":"Coro",
+                "letra":"//Espíritu,\nEspíritu.\n\nDesciende,\nComo fuego\n\nCómo en Pentecostés\nY lléname de nuevo.//"
             }
         ]
     },
     {
         "id":7,
         "nombre":"Digno de gloria",
-        "tono":-2,
+        "tono":-1,
         "modo":0,
         "velocidad":0,
-        "grupo":0,
+        "grupo":-1,
         "letra":[
             {
                 "seccion":"Coro",
-                "letra":"//Digno de gloria,\nY de alabanza,\nLevantemos nuestras manos,\nY adoremos al Señor.//\n\nPorque grande eres,\nMaravillas haces tú\nNo hay otro como tú,\nNo lo hay\nNo hay nadie como tu."
+                "letra":"//Digno de gloria,\nY de alabanza,\nLevantemos nuestras manos,\nY adoremos al Señor.//\n\nPorque grande eres,\nMaravillas haces tú\nNo hay otro como tú,\nNo lo hay\nNo hay nadie como tu.//"
             }
         ]
     },
     {
         "id":8,
         "nombre":"No hay otro Dios",
-        "tono":-2,
+        "tono":-1,
         "modo":0,
         "velocidad":0,
-        "grupo":0,
+        "grupo":-1,
         "letra":[
             {
                 "seccion":"Verso 1",
-                "letra":"///No hay otro Dios///\nComo tú Jesus\nDios en los cielos,\nDios en la tierra\nNo hay otro Dios como tú\n\nSólo Jesús,\nSólo, sólo Jesús, Sólo con El me quedo\nDios en los cielos,\nDios en la tierra,\nNo hay otro Dios como tú."
+                "letra":"///No hay otro Dios///\nComo tú Jesus,\n\nDios en los cielos,\nDios en la tierra\nNo hay otro Dios\nComo tú\n\nSólo Jesús,\nSólo, sólo Jesús,\nSólo con Él,\nMe quedo,\nDios en los cielos,\nDios en la tierra,\nNo hay otro Dios\nComo tú."
             },
             {
                 "seccion":"Verso 2",
-                "letra":"///No hay otro Dios///\nComo tú Jesus\nA tu presencia\nTtiembla la tierra,\nNo hay otro dios como tú."
+                "letra":"///No hay otro Dios///\nComo tú Jesus,\nA tu presencia,\nTiembla la tierra,\nNo hay otro Dios,\nComo tú."
             },
             {
                 "seccion":"Coro",
-                "letra":"Que calma,\nEl recio viento,\nNo hay otro Dios,\nComo tú\n\nQue cuenta,\n mis cabellos,\nNo hay otro Dios\nComo tú.\n\nQue conoce,\nMis pensamientos,\nNo hay otro Dios,\nComo tú.\n\nQue sabe,\nLo que siento,\nNo hay otro Dios,\nComo mi Dios,\n\n//Como mi Dios,\nNo hay otro Dios.//\n"
+                "letra":"Que calma,\nEl recio viento,\nNo hay otro Dios,\nComo tú\n\nQue cuenta,\nMis cabellos,\nNo hay otro Dios\nComo tú.\n\nQue conoce,\nMis pensamientos,\nNo hay otro Dios,\nComo tú.\n\nQue sabe,\nLo que siento,\nNo hay otro Dios,\n\nComo mi Dios,\n//Como mi Dios,\nNo hay otro Dios.//\n"
             }
         ]
     },
     {
         "id":9,
         "nombre":"Merecedor de alabanzas",
-        "tono":-2,
+        "tono":-1,
         "modo":1,
         "velocidad":0,
-        "grupo":0,
+        "grupo":-1,
         "letra":[
             {
                 "seccion":"Verso 1",
-                "letra":"Merecedor,\nDe alabanzas,\nAquel que vino a salvarme.\n\nMerecedor,De alabanzas,\nQue siendo yo pecador.\n\nNo escatimó,\nSu linaje,\nal morir en la cruz.\n\nMerecedor,\nDe alabanzas,\nPor los siglos,\nSea Jesús."
+                "letra":"Merecedor,\nDe alabanzas,\nAquel que vino a salvarme.\n\nMerecedor,\nDe alabanzas,\nQue siendo yo pecador.\n\nNo escatimó,\nSu linaje,\nal morir en la cruz.\n\nMerecedor,\nDe alabanzas,\nPor los siglos,\nSea Jesús."
             },
             {
                 "seccion":"Coro",
-                "letra":"El día en que no le alabo,\nEl alma se me entristece,\nPues donde no hay alabanza,\nÉl no puede estar presente.\n\nUn sacrificio tan grande,\nNo pueden pasar por alto,\nPor siempre te digo santo,\nAunque crean que estoy loco."
+                "letra":"//El día en que no le alabo,\nEl alma se me entristece,\nPues donde no hay alabanza,\nÉl no está presente.\n\nUn sacrificio tan grande,\nNo pueden pasar por alto,\nPor siempre te digo santo,\nAunque crean que estoy loco.//\n\n///Santo.///"
             }
         ]
     },
     {
         "id":10,
         "nombre":"Cómo olvidate",
-        "tono":-2,
+        "tono":-1,
         "modo":1,
         "velocidad":0,
-        "grupo":0,
+        "grupo":-1,
         "letra":[
             {
                 "seccion":"Verso 1",
@@ -172,7 +176,7 @@
             },
             {
                 "seccion":"Coro",
-                "letra":"Conoces mi vida,\nConoces mis pasos,\nTodos mis días,\nLos tienes contados,\n\nMis sueños, deseos,\nEstán, en tus manos,\nMis horas amargas,\nLas consuelas tú.\n\n.Tú eres Señor,\nEl sustento de gracia,\nLa fuerza que llevo,\nAquí adentro en el alma.\n\nEl sol de justicia,\nQue alumbra mi ser,\n¿Cómo olvidarte?,\nSi eres mi Dios.\n\nEl Dios de los cielos,\nEl Dios de la tierra,\nEl Dios de los mares,\nY de las estrellas,\n\nEl Dios de Israel,\nEl Dios del ayer,\nDe hoy, de mañana,\n y los siglos,\nAmén."
+                "letra":"Conoces mi vida,\nConoces mis pasos,\nTodos mis días,\nLos tienes contados,\n\nMis sueños, deseos,\nEstán, en tus manos,\nMis horas amargas,\nLas consuelas tú.\n\nTú eres Señor,\nEl sustento de gracia,\nLa fuerza que llevo,\nAquí adentro en el alma.\n\nEl sol de justicia,\nQue alumbra mi ser,\n¿Cómo olvidarte?,\nSi eres mi Dios.\n\nEl Dios de los cielos,\nEl Dios de la tierra,\nEl Dios de los mares,\nY de las estrellas,\n\nEl Dios de Israel,\nEl Dios del ayer,\nDe hoy, de mañana,\n y los siglos,\nAmén."
             }
         ]
     }
