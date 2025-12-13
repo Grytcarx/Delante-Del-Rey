@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delante del Rey | Tu compañero de adoración</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700;900&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* --- VARIABLES & RESET --- */
+        :root {
+            --primary: #7c3aed; /* Violeta fuerte */
+            --primary-glow: #8b5cf6; /* Violeta luz */
+            --accent: #c4b5fd; /* Lila claro */
+            --dark-bg: #0a0a0a; /* Casi negro */
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --text-main: #ffffff;
+            --text-muted: #a1a1aa;
+            --gradient-main: linear-gradient(135deg, #4c1d95 0%, #7c3aed 100%);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--dark-bg);
+            color: var(--text-main);
+            overflow-x: hidden;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3, h4 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+        }
+
+        a { text-decoration: none; color: white; transition: 0.3s; }
+        ul { list-style: none; }
+
+        /* --- BACKGROUND FX --- */
+        .bg-glow {
+            position: fixed;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(124, 58, 237, 0.15) 0%, rgba(0,0,0,0) 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: -1;
+            animation: float 10s infinite ease-in-out;
+        }
+        .glow-1 { top: -10%; left: -10%; }
+        .glow-2 { bottom: -10%; right: -10%; animation-delay: 2s; background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, rgba(0,0,0,0) 70%); }
+
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(30px, 50px); }
+        }
+
+        /* --- NAVBAR --- */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 5%;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+            background: rgba(10, 10, 10, 0.7);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            background: var(--gradient-main);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -1px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        .nav-links a:hover { opacity: 1; color: var(--accent); }
+
+        .btn-download-nav {
+            padding: 10px 20px;
+            background: var(--primary);
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            box-shadow: 0 0 15px rgba(124, 58, 237, 0.4);
+        }
+        .btn-download-nav:hover {
+            background: var(--primary-glow);
+            box-shadow: 0 0 25px rgba(124, 58, 237, 0.6);
+        }
+
+        /* --- HERO SECTION --- */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 120px 5% 50px;
+            position: relative;
+        }
+
+        .hero-content {
+            flex: 1;
+            max-width: 600px;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+            line-height: 1.1;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+        }
+        
+        .hero h1 span {
+            color: var(--primary-glow);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-bottom: 40px;
+            max-width: 90%;
+        }
+
+        .hero-btns {
+            display: flex;
+            gap: 20px;
+        }
+
+        .btn-hero {
+            padding: 15px 35px;
+            border-radius: 12px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            transition: transform 0.2s;
+        }
+
+        .btn-primary {
+            background: white;
+            color: black;
+        }
+        
+        .btn-outline {
+            border: 1px solid rgba(255,255,255,0.3);
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(5px);
+        }
+
+        .btn-hero:hover { transform: translateY(-3px); }
+
+        .hero-visual {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            position: relative;
+        }
+
+        /* Abstract App Mockup CSS */
+        .app-mockup {
+            width: 300px;
+            height: 600px;
+            background: linear-gradient(180deg, #1e1e2e 0%, #000 100%);
+            border-radius: 40px;
+            border: 8px solid #2d2d2d;
+            position: relative;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.5), 0 0 100px rgba(124, 58, 237, 0.3);
+            overflow: hidden;
+            transform: rotate(-5deg);
+            animation: floatMockup 6s infinite ease-in-out;
+        }
+
+        @keyframes floatMockup {
+            0%, 100% { transform: rotate(-5deg) translateY(0); }
+            50% { transform: rotate(-5deg) translateY(-20px); }
+        }
+
+        .app-screen {
+            padding: 20px;
+        }
+        .app-header { height: 20px; width: 40%; background: #333; border-radius: 10px; margin-bottom: 30px; }
+        .song-card {
+            background: rgba(124, 58, 237, 0.2);
+            padding: 15px;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .line { height: 8px; background: rgba(255,255,255,0.1); border-radius: 4px; margin-bottom: 8px; }
+        .line.short { width: 60%; }
+        .chord { color: var(--primary-glow); font-weight: bold; font-size: 0.8rem; margin-bottom: 5px; }
+
+        /* --- FEATURES --- */
+        .features {
+            padding: 100px 5%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        .section-title h2 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+        .section-title p { color: var(--text-muted); }
+
+        .grid-features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 24px;
+            border: 1px solid rgba(255,255,255,0.05);
+            transition: 0.4s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--primary);
+            box-shadow: 0 10px 40px rgba(124, 58, 237, 0.15);
+        }
+
+        .icon-box {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary) 0%, #4c1d95 100%);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 25px;
+        }
+
+        .feature-card h3 { font-size: 1.5rem; margin-bottom: 15px; }
+        .feature-card p { color: var(--text-muted); font-size: 0.95rem; }
+
+        /* --- MÚSICO SECTION --- */
+        .musician-section {
+            padding: 100px 5%;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(124, 58, 237, 0.05) 50%, rgba(0,0,0,0) 100%);
+        }
+
+        .musician-content { flex: 1; }
+        .musician-image { 
+            flex: 1; 
+            height: 400px;
+            background: #1a1a1a;
+            border-radius: 24px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .musician-image i {
+            font-size: 8rem;
+            color: rgba(255,255,255,0.05);
+        }
+        
+        /* Floating cards inside image area */
+        .float-card {
+            position: absolute;
+            background: rgba(20, 20, 20, 0.9);
+            backdrop-filter: blur(10px);
+            padding: 15px 25px;
+            border-radius: 12px;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .fc-1 { top: 20%; right: 10%; }
+        .fc-2 { bottom: 20%; left: 10%; }
+
+        .check-list li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.1rem;
+        }
+        .check-list i { color: var(--primary-glow); }
+
+        /* --- CTA FOOTER --- */
+        .cta-section {
+            text-align: center;
+            padding: 100px 5%;
+            position: relative;
+        }
+        .cta-box {
+            background: var(--gradient-main);
+            padding: 80px 40px;
+            border-radius: 40px;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta-box h2 { font-size: 3rem; margin-bottom: 20px; }
+        .cta-box p { margin-bottom: 40px; font-size: 1.2rem; opacity: 0.9; }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        /* --- ANIMATION CLASSES --- */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* --- MEDIA QUERIES --- */
+        @media (max-width: 768px) {
+            .hero { flex-direction: column; text-align: center; padding-top: 100px; }
+            .hero h1 { font-size: 3rem; }
+            .hero-btns { justify-content: center; flex-direction: column; }
+            .hero-visual { margin-top: 50px; }
+            .musician-section { flex-direction: column; }
+            .nav-links { display: none; } /* Simplified for demo */
+            .cta-box h2 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+
+    <nav>
+        <div class="logo">Delante del Rey</div>
+        <div class="nav-links">
+            <a href="#features">Características</a>
+            <a href="#musicos">Para Músicos</a>
+            <a href="#comunidad">Comunidad</a>
+        </div>
+        <a href="#" class="btn-download-nav">Descargar App</a>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content reveal">
+            <h1>Adoración que fluye, <br><span>Sin interrupciones.</span></h1>
+            <p>La colección definitiva de himnos, coros y canciones cristianas. Acordes precisos, repertorios inteligentes y herramientas para el músico de excelencia.</p>
+            <div class="hero-btns">
+                <a href="#" class="btn-hero btn-primary"><i class="fab fa-apple"></i> App Store</a>
+                <a href="#" class="btn-hero btn-outline"><i class="fab fa-google-play"></i> Google Play</a>
+            </div>
+        </div>
+
+        <div class="hero-visual reveal">
+            <div class="app-mockup">
+                <div class="app-screen">
+                    <div class="app-header"></div>
+                    
+                    <div class="song-card">
+                        <div class="chord">G &nbsp;&nbsp;&nbsp; D &nbsp;&nbsp;&nbsp; Em</div>
+                        <div class="line"></div>
+                        <div class="line short"></div>
+                    </div>
+                    
+                    <div class="song-card" style="opacity: 0.7">
+                        <div class="chord">C &nbsp;&nbsp;&nbsp; G &nbsp;&nbsp;&nbsp; D</div>
+                        <div class="line"></div>
+                        <div class="line short"></div>
+                    </div>
+
+                    <div class="song-card" style="opacity: 0.4">
+                         <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="section-title reveal">
+            <h2>Todo lo que necesitas</h2>
+            <p>Diseñado para líderes de alabanza y equipos de adoración.</p>
+        </div>
+
+        <div class="grid-features">
+            <div class="feature-card reveal">
+                <div class="icon-box"><i class="fas fa-music"></i></div>
+                <h3>Letras y Acordes</h3>
+                <p>Miles de canciones con cifrados precisos. Transporta el tono automáticamente con un solo tap.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="icon-box"><i class="fas fa-list-ul"></i></div>
+                <h3>Repertorios</h3>
+                <p>Crea listas para el servicio del domingo, compártelas con tu banda y mantén a todos sincronizados.</p>
+            </div>
+            <div class="feature-card reveal">
+                <div class="icon-box"><i class="fas fa-lightbulb"></i></div>
+                <h3>Consejos Pro</h3>
+                <p>Tips semanales para músicos, devocionales sobre adoración y guías técnicas para tu instrumento.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="musician-section" id="musicos">
+        <div class="musician-image reveal">
+            <i class="fas fa-guitar"></i>
+            <div class="float-card fc-1">
+                <i class="fas fa-check-circle" style="color: #4ade80; margin-right: 5px;"></i> Tono: Sol Mayor (G)
+            </div>
+            <div class="float-card fc-2">
+                <i class="fas fa-users" style="color: var(--primary-glow); margin-right: 5px;"></i> Repertorio compartido
+            </div>
+        </div>
+        <div class="musician-content reveal">
+            <h2 style="font-size: 2.5rem; margin-bottom: 20px;">Tu banda, siempre lista.</h2>
+            <p style="color: var(--text-muted); margin-bottom: 30px;">Olvídate de las fotocopias y los grupos de WhatsApp desordenados. Centraliza tu ministerio musical en un solo lugar.</p>
+            
+            <ul class="check-list">
+                <li><i class="fas fa-check"></i> Modo oscuro real para no deslumbrar en el escenario.</li>
+                <li><i class="fas fa-check"></i> Diccionario de acordes integrado.</li>
+                <li><i class="fas fa-check"></i> Modo "sin conexión" para iglesias con poca señal.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="cta-box reveal">
+            <h2>Empieza hoy mismo</h2>
+            <p>Únete a miles de músicos que están tocando <b>Delante del Rey</b> con excelencia.</p>
+            <a href="#" class="btn-hero btn-primary" style="display: inline-flex; color: var(--primary);">Descargar Gratis</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Delante del Rey App. Hecho para la gloria de Dios.</p>
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', reveal);
+        function reveal(){
+            var reveals = document.querySelectorAll('.reveal');
+            for(var i = 0; i < reveals.length; i++){
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+            }
+        }
+        // Trigger once on load
+        reveal();
+    </script>
+</body>
+</html>
