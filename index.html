@@ -4,31 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icono.ico?v=22" type="image/x-icon">
-    <link rel="stylesheet" href="index.css?v=22">
-    <script defer src="index.js?v=22"></script>
+    <meta name="description" content="Aplicación cristiana con coros, himnos y canciones para la gestión de grupos de alabanza">
+    <meta name="theme-color" content="#11051B">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="shortcut icon" href="icono.ico?v=23" type="image/x-icon">
+    <link rel="stylesheet" href="index.css?v=23">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script defer src="index.js?v=23"></script>
     <title>Delante del Rey</title>
 </head>
 
 <body>
+    <div class="bg-glow"></div>
+    <div class="bg-grid"></div>
+
     <header>
         <div class="contenedor-titulo">
-            <img src="icono_con_transparencia.png?v=22" alt="">
+            <img src="icono_con_transparencia.png?v=23" alt="Delante del Rey" class="logo">
             <h1>Delante del Rey</h1>
         </div>
     </header>
+
     <main>
-        <p class="p-informacion">Aplicación que contiene coros, himnos y canciones cristianas; con la posibilidad de
-            creación de repertorios para agilizar la gestión de grupos de alabanza</p>
-        <a id="enlaceDecargarApp"
-            href="https://drive.usercontent.google.com/download?id=1sn3QF2GhQkfHoX2byG2YTJyxOO9bxFLf&export=download&authuser=0&confirm=t&uuid=e477af8e-091e-45c5-a5cc-babafa66912a&at=AAINaIIsA4gfv-cm-3Kt3Ps3LYzn%3A1780706957835?v=22"
-            download="">Descargar aplicación versión 2.1.1<img src="android.png?v=22" alt=""></a>
+        <div class="card-descripcion">
+            <p class="p-informacion">
+                Aplicación que contiene <strong>coros, himnos y canciones cristianas</strong>;
+                con la funcionalidad de creación de repertorios para agilizar la organización en los grupos de alabanza.
+            </p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <span class="feature-dot"></span>
+                Coros &amp; Himnos
+            </div>
+            <div class="feature">
+                <span class="feature-dot"></span>
+                Repertorios
+            </div>
+            <div class="feature">
+                <span class="feature-dot"></span>
+                Gestión de Alabanza
+            </div>
+        </div>
+
+        <div class="accion-descarga">
+            <a id="enlaceDescargarApp"
+                href="https://drive.usercontent.google.com/download?id=1H5VOkUP0ZJfSdZMDNUwWRqM9iPxlsdbj&export=download&authuser=0&confirm=t&uuid=0c500edf-932d-4b80-9875-542d2f34f5e8&at=AAINaIISz40dGoIRutEWrnGM-EpO%3A1780961868464"
+                class="btn-download">
+                <span class="btn-content">
+                    <span class="btn-text">
+                        <span class="btn-label">Descargar aplicación</span>
+                        <span class="btn-version">v2.2.0</span>
+                    </span>
+                    <img src="android.png?v=23" alt="Android">
+                </span>
+            </a>
+            <p class="descarga-nota">Gratuita &middot; Sin publicidad &middot; Android</p>
+        </div>
     </main>
+
     <footer>
-        <img src="Imagotipo.png?v=22" alt="">
+        <img src="Imagotipo.png?v=23" alt="KraatiVi">
         <div class="informacion">
-            <p>KraatiVi</p>
-            <p>kraativi@gmail.com</p>
+            <p class="brand">KraatiVi</p>
+            <a href="mailto:kraativi@gmail.com" class="email">kraativi@gmail.com</a>
         </div>
     </footer>
 </body>
